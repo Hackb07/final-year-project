@@ -1,0 +1,24 @@
+# ============================================================================
+# CapsuleAI supported disease/abnormality classes.
+#
+# NOTE: These are the classes the application is *expected* to support in a
+# production capsule-trained model. The currently loaded YOLO model defines
+# its own class list (read at runtime from the model file). Detection results
+# are never remapped to classes the model does not output.
+#
+# Add new classes here without modifying core application code.
+# ============================================================================
+
+supported_classes:
+  - normal
+  - ulcer
+  - erosion
+  - bleeding
+  - polyp
+  - angioectasia
+  - mass
+  - inflammation
+
+# Optional: remap a model class id -> canonical disease class.
+# Empty by default. Only used when the trained model was built with this mapping.
+label_map: {}

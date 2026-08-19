@@ -1,0 +1,5 @@
+INFO:     Started server process [14204]
+INFO:     Waiting for application startup.
+2026-08-16 18:58:15 | INFO     | cv | CapsuleDetector initialized | model=capsule_yolo11.pt | device=cpu | classes=80 | conf=0.40
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
